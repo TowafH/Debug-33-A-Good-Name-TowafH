@@ -1,0 +1,125 @@
+ /* Full credit to code.org for task */
+  
+p {
+  color: black;
+  font-size: 0.7em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  color: goldenrod;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+  font-size: 30px;
+}
+img{
+  width: 200px;
+  height: 200px; 
+ }
+
+body{
+  background-color: lightblue;
+  text-align: center;
+}
+hr{
+  border-color: #468bc8;
+}
+#elephant{
+  color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#hippo{
+  color: #978763;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#flamingo{
+  color: #c99ca4;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#panda{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#penguin{
+  color: whitesmoke;
+  font-family: cursive;
+}
+
+#emp_text{
+  color:white;
+}
+
+.container{
+  border: 3px solid #233c76;
+  box-shadow: 1px 3px 10px 1px #657395;
+  outline-offset: 1px;
+  outline: groove 2px #4d5e84 ;
+  overflow: hidden;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#topleft1{
+  position: absolute;
+  left: 1px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  width: 15%;
+  height: 50%;
+  background-color: #cfbfbf;
+  box-shadow: 1px 3px 10px 1px #657395;
+  overflow:hidden;
+}
+
+#topleft2{
+  position: absolute;
+  left: 300px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  width: 15%;
+  height: 50%;
+  background-color: #caca9b;
+  box-shadow: 1px 3px 10px 1px #657395;
+  overflow:hidden;
+}
+
+#topleft3{
+  position: absolute;
+  left: 600px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  width: 15%;
+  height: 50%;
+  background-color: #ffd1d1;
+  box-shadow: 1px 3px 10px 1px #657395;
+  overflow:hidden;
+}
+
+#topleft4{
+  position: absolute;
+  left: 900px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  width: 15%;
+  height: 50%;
+  background-color: #ffffff;
+  box-shadow: 1px 3px 10px 1px #657395;
+  overflow:hidden;
+}
+
+#topleft5{
+  position: absolute;
+  left: 1200px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid white;
+  width: 15%;
+  height: 50%;
+  background-color: #000000;
+  box-shadow: 1px 3px 10px 1px #657395;
+  overflow:hidden;
+}
