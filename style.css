@@ -59,57 +59,57 @@ hr{
   background-repeat: no-repeat;
 }
 
-#topleft1{
+#top1{
   border: 1px solid black;
   background-image: linear-gradient(#cfbfbf, white,#cfbfbf);
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
 }
 
-#topleft1{
+#top1{
   transition: 2s;
 }
-#topleft1:hover{
+#top1:hover{
   height: 400px;
   z-index: 1px;
 }
 
-#topleft2{
+#top2{
   border: 1px solid black;
   background-image: linear-gradient( #caca9b, #f7f7cf, #caca9b);
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
 }
 
-#topleft2{
+#top2{
   transition: 2s;
 }
-#topleft2:hover{
+#top2:hover{
   height: 400px;
   z-index: 1px;
 }
 
-#topleft3{
+#top3{
   border: 1px solid black;
   background-image: linear-gradient(#ffd1d1, #f5d6db, #ecc5c5);
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
 }
-#topleft3{
+#top3{
   transition: 2s;
 }
-#topleft3:hover{
+#top3:hover{
   height: 400px;
   z-index: 1px;
 }
 
-#topleft4{
+#top4{
   border: 1px solid black;
   background-image: linear-gradient(#ffffff, whitesmoke, #ffffff);
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
 }
-#topleft4{
+#top4{
   transition: 2s;
 }
 #topleft4:hover{
@@ -117,16 +117,16 @@ hr{
   z-index: 1px;
 }
 
-#topleft5{
+#top5{
   border: 1px solid white;
   background-color: #000000;
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
 }
-#topleft5{
+#top5{
   transition: 2s;
 }
-#topleft5:hover{
+#top5:hover{
   height: 400px;
   z-index: 1px;
 }
