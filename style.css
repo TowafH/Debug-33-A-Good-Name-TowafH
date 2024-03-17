@@ -2,15 +2,12 @@
   
 p {
   color: black;
-  font-size: 0.7em;
+  font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1 {
-  color: goldenrod;
+  color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h2{
-  font-size: 30px;
 }
 img{
   width: 200px;
@@ -49,7 +46,7 @@ hr{
   color:white;
 }
 
-.container{
+.banner{
   border: 3px solid #233c76;
   box-shadow: 1px 3px 10px 1px #657395;
   outline-offset: 1px;
@@ -57,69 +54,106 @@ hr{
   overflow: hidden;
   text-align: center;
   background-color: whitesmoke;
+  background-image: url(https://thumbs.dreamstime.com/b/clouds-blue-sky-light-31912398.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #topleft1{
-  position: absolute;
-  left: 1px;
-  margin: 2px;
-  padding: 2px;
   border: 1px solid black;
-  width: 15%;
-  height: 50%;
-  background-color: #cfbfbf;
+  background-image: linear-gradient(#cfbfbf, white,#cfbfbf);
+  box-shadow: 1px 3px 10px 1px #657395;
+  overflow:hidden;
+}
+
+#topleft1{
+  transition: 2s;
+}
+#topleft1:hover{
+  height: 400px;
+  z-index: 1px;
+}
+
+#topleft2{
+  border: 1px solid black;
+  background-image: linear-gradient( #caca9b, #f7f7cf, #caca9b);
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
 }
 
 #topleft2{
-  position: absolute;
-  left: 300px;
-  margin: 2px;
-  padding: 2px;
-  border: 1px solid black;
-  width: 15%;
-  height: 50%;
-  background-color: #caca9b;
-  box-shadow: 1px 3px 10px 1px #657395;
-  overflow:hidden;
+  transition: 2s;
+}
+#topleft2:hover{
+  height: 400px;
+  z-index: 1px;
 }
 
 #topleft3{
-  position: absolute;
-  left: 600px;
-  margin: 2px;
-  padding: 2px;
   border: 1px solid black;
-  width: 15%;
-  height: 50%;
-  background-color: #ffd1d1;
+  background-image: linear-gradient(#ffd1d1, #f5d6db, #ecc5c5);
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
+}
+#topleft3{
+  transition: 2s;
+}
+#topleft3:hover{
+  height: 400px;
+  z-index: 1px;
 }
 
 #topleft4{
-  position: absolute;
-  left: 900px;
-  margin: 2px;
-  padding: 2px;
   border: 1px solid black;
-  width: 15%;
-  height: 50%;
-  background-color: #ffffff;
+  background-image: linear-gradient(#ffffff, whitesmoke, #ffffff);
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
 }
+#topleft4{
+  transition: 2s;
+}
+#topleft4:hover{
+  height: 400px;
+  z-index: 1px;
+}
 
 #topleft5{
-  position: absolute;
-  left: 1200px;
-  margin: 2px;
-  padding: 2px;
   border: 1px solid white;
-  width: 15%;
-  height: 50%;
   background-color: #000000;
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
+}
+#topleft5{
+  transition: 2s;
+}
+#topleft5:hover{
+  height: 400px;
+  z-index: 1px;
+}
+.container{
+  position: absolte;
+  border: 3px solid #233c76;
+  box-shadow: 1px 3px 10px 1px #4c639a;
+  outline-offset: 1px;
+  outline: groove 2px #4d5e84 ;
+  background-color: white;
+  height: 1000px;
+  overflow: hidden;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/95/Giraffe_enclosure%2C_ZOO_Jihlava.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wave{
+  border: 1px solid #233c76;
+  text-align: center;
+  background-color: white;
+  font-size: 0.9em;
+  height: 50px;
+  overflow: hidden;
+  width: 80%;
+  position:relative;
+  left: 10%;
+  transition: height 4s;
+  display:block;
+  }
 }
